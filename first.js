@@ -17,7 +17,7 @@ console.log(typeof(x));
 console.log(typeof(y));
 console.table(firstName , age , x , y , isCnic);
 
-// Tow Types Of Data Types 
+// Two Types Of Data Types 
 // Permitive > String > Number > Boolean > Null > undefined ;
 // Non Permitive Array > Object > Function ;
 
@@ -33,5 +33,8 @@ console.log(age);
 
 const pie = 3.41;
 console.log(pie);
-pie = 3.45;
-console.log(pie);
+// pie = 3.45;
+// console.log(pie);
+
+
+

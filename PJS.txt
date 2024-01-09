@@ -1,0 +1,7 @@
+var x = "Hello World";            > String
+var x = 25;                       > Number
+var x = true;                     > Boolean
+var x = ["HTML","CSS","JS"];      > Array
+var x = {first:"jane",last"doe"}; > Object
+var x = null;                     > Null
+var x =                           > undefined

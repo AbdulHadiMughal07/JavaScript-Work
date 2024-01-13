@@ -16,3 +16,15 @@ var x = {first:"jane",last"doe"}; > Object
 3) Two Types Of Data Types:- 
    Permitive > String > Number > Boolean > Null > undefined ;
    Non Permitive Array > Object > Function ;
+
+4) Difference Between var , let , const 
+
+5) OBJACT
+
+6) Arthmetic Logic Opretar
+
+7) Pre & Post Increment & Decrement
+
+3rd File
+8) Condition Statement With Age
+9) Condition Statement With Mode

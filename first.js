@@ -21,6 +21,7 @@ console.table(firstName , age , x , y , isCnic);
 // Permitive > String > Number > Boolean > Null > undefined ;
 // Non Permitive Array > Object > Function ;
 
+// Difference Between var , let , const
 var city = "Karachi";
 console.log(city);
 var city = "Lahore";

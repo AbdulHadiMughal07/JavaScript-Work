@@ -28,3 +28,4 @@ var x = {first:"jane",last"doe"}; > Object
 3rd File
 8) Condition Statement With Age
 9) Condition Statement With Mode
+

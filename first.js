@@ -4,11 +4,11 @@ console.log("Hello World");
 console.log("Hello World 2");
 
 // DATA TYPES 
-firstName = "HADI";
-age =16;
-x = null;
-y = undefined;
-isCnic = true;    
+firstName = "HADI"; // String
+age =16;            // Number
+x = null;           // Empty
+y = undefined;      // Undefined
+isCnic = true;      // Boolen
 
 // VAlUE PRINT WITH TYPES
 console.log(typeof(firstName));

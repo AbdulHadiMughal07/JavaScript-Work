@@ -6,7 +6,7 @@ for(let i=0; i<=10; i++){
 }
 
 for(let a=1; a<=10; a++){
-    console.log("5 x ",a ,"=", 5*a);
+    console.log("5 x", a ,"=", 5*a);
 }
 
 let num = 10

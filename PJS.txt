@@ -29,3 +29,19 @@ var x = {first:"jane",last"doe"}; > Object
 8) Condition Statement With Age
 9) Condition Statement With Mode
 
+4TH FILE 
+10) LOOPS
+
+6TH FILE
+11) ARRAY
+12) Concat Method
+
+7TH FILE
+13) Functions
+14) Functions With Parameter
+
+
+
+
+
+

@@ -7,8 +7,16 @@ console.log(str.includes("O"));
 console.log(str.endsWith("E"));
 // Jo Mene Type Kara Hai Us K 5 Number Pr Kon Sa Veriable hai
 console.log(str[5]);
-console.log(str.replace("O", "G"));
-console.log(str.Rplace ("O", "G"));
+// console.log(str.replace("O", "G"));
+console.log(str.replaceAll("O", "G"));
+console.log(str.toLocaleLowerCase());
+
+// STRINGS ARE IMMUTABLE
+let word = "HELLO";
+console.log(word); 
+word[0] = "Y";
+console.log(word); 
+
 
 
 

@@ -29,6 +29,7 @@ console.log(choice);
 // let result = grade == "A"  || garde == "B" || grade == "C" ? "PASS" : "FAIL";
 // console.log(result); 
 
+// Turnary Opretars
 let grade = prompt("enter your garde");
 let per = prompt("enter your persentage");
 let result = grade == "A+" && per == 90 || grade == "A" && per == 80 || grade == "C" && per == 70 ? "PASS" : "FAIL";

@@ -40,6 +40,12 @@ var x = {first:"jane",last"doe"}; > Object
 13) Functions
 14) Functions With Parameter
 
+8TH FILE
+15) Str Topic
+
+9TH FILE
+16) MINI GAME
+
 
 
 

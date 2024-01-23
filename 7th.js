@@ -4,7 +4,7 @@ courses[3] = "PHP"
 console.log(courses);
 
 // Functions
-function hello () {
+function hello (){
     console.log("Hello World");
 }
 

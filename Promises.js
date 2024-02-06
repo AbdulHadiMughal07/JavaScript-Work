@@ -14,6 +14,8 @@ let promiseOne = new Promise(function(resolve , reject){
 })
 
 
+
+
 // PromiseTwo
 let promiseTwo = new Promise(function(resolve , reject){
     setTimeout(function(){
@@ -26,6 +28,8 @@ promiseTwo.then(function(user){
 })
 
 
+
+// PromiseThree
 let promiseThree = new Promise(function(resolve , reject){
     setTimeout(function(){
         resolve({username : "peter" , email : "peter@gmail.com"})
@@ -39,6 +43,8 @@ promiseThree.then(function(user){
     console.log(user);
 })
 
+
+// PromiseFour
 let promiseFour = new Promise(function(resolve , reject){
     setTimeout(function(){
         let error = false;
@@ -60,3 +66,27 @@ promiseFour.then(function(myvalue){
     console.log("FINALLY");
 })
 
+
+let promiseFive = new Promise(function(resolve , reject){
+    setTimeout(function(){
+        let error = false;
+        if(!error){
+            resolve({username : "Mike" , password : "1451"})
+        }
+        else{
+            reject("ERROR IN JS  : THE SOMTHING WENT WRONG")
+        }
+    },1000)
+})
+
+async function consumedPromiseFive(){
+    try{
+        let response = await promiseFive;
+        console.log(response);
+    }
+    catch(error){
+        console.log(error);
+    }
+}
+
+consumedPromiseFive()

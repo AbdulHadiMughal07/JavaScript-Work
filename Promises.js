@@ -74,7 +74,7 @@ let promiseFive = new Promise(function(resolve , reject){
             resolve({username : "Mike" , password : "1451"})
         }
         else{
-            reject("ERROR IN JS  : THE SOMTHING WENT WRONG")
+            reject("ERROR IN JS : THE SOMTHING WENT WRONG")
         }
     },1000)
 })
@@ -90,3 +90,52 @@ async function consumedPromiseFive(){
 }
 
 consumedPromiseFive()
+
+let promiseSix = new Promise(function(resolve , reject){
+    setTimeout(function(){
+        let errorOne = false;
+        if(!errorOne){
+            resolve({name : "Sameer" , email : "Ibrahim@gmail.com"})
+        }
+        else{
+            reject("ERROR SOMETHING WENT WRONG HERE!");
+        }
+    },3000)
+})
+
+promiseSix.then(function(userOne){
+    return userOne.email;
+})
+.then(function(xyz){
+    console.log(xyz);
+})
+.catch(function(errorOne){
+    console.log(errorOne);
+})
+.finally(function(){
+    console.log("THE PROMISE HAS BEEN RESOLVE OR REJECTED!");
+})
+
+let promiseSeven = new Promise(function(resolve , reject){
+    setTimeout(function(){
+    let error = false;
+    if(!error){
+        resolve("This Is WOW")
+    }
+    else{
+        reject("YE EK ERROR HAI")
+        }
+    },1000)
+})
+
+async function consumedPromiseSeven(){
+    try{
+        let data = await promiseSeven;
+        console.log(data)
+    }
+     catch(error){
+        console.log(error);
+     }
+}
+
+consumedPromiseSeven()

@@ -139,3 +139,17 @@ async function consumedPromiseSeven(){
 }
 
 consumedPromiseSeven()
+
+async function getAllUserData(){
+    try{
+        let response = await fetch('https://jsonplaceholder.typicode.com/users');
+        let jsonData = await response.json()
+        document.write(JSON.stringify(jsonData))
+    }
+
+    catch(error){
+        console.log("ERROR");
+    }
+}
+
+getAllUserData()
